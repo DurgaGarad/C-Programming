@@ -1,0 +1,11 @@
+/* my first program  */
+
+#include <stdio.h>
+
+int main()
+{
+	printf("Hello, world\n");
+	printf("Hii Durga\n");
+	printf("Welcome to C programming");
+	return 0;
+}
