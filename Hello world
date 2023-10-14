@@ -1,0 +1,12 @@
+// documention section =====> we can write name of the program.
+
+/* The Hello World  Program  
+*/
+#include <stdio.h>
+
+int main()
+{
+	printf("Hello, world\n");
+	
+	return 0;
+}
