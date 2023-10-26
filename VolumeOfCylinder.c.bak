@@ -1,3 +1,7 @@
+/* 1 surface of cylinder
+   2  volume of cylinder
+*/
+
 #include <stdio.h>
 int main()
 {
