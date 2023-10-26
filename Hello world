@@ -2,11 +2,11 @@
 
 /* The Hello World  Program  
 */
-#include <stdio.h>
+#include <stdio.h>                             // It is header file use to link the libary file.
 
-int main()
+int main()                                   // int is return type main is a function is always known by compiler.
 {
-	printf("Hello, world\n");
+	printf("Hello, world\n");            // printf is a fuction use to display output on console. 
 	
-	return 0;
+	return 0;                           // it is return values of function 
 }
