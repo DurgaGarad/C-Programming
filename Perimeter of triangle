@@ -1,0 +1,18 @@
+//Perimeter of triangle  P = a+b+c;
+
+#include <stdio.h>
+
+int main()
+{
+	int a,b,c;
+	printf("Enter the base value : ");
+	scanf("%d",&a);
+    printf("Enter the height value : ");
+	scanf("%d",&b);
+	printf("Enter the c : ");
+	scanf("%d",&c);
+
+	int P=a+b+c;
+	printf("Peroimeter of triangle is = %d",P);
+	return 0;
+}
