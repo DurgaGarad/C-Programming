@@ -1,0 +1,20 @@
+//formula of rectangle
+
+#include <stdio.h>
+
+int main()
+{
+	int a,b;
+	printf("Enter the frist number");
+	scanf("%d",&a);
+    printf("Enter the second number");
+	scanf("%d",&b);
+
+	int rectangle=2*(a+b);
+	printf("rectangle is=%d",rectangle);
+
+
+
+	
+	return 0;
+}
