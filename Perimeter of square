@@ -1,0 +1,14 @@
+//Parimeter of square   p = 4*b;
+
+#include <stdio.h>
+
+int main()
+{
+	int a;
+	printf("Enter the value of Base : ");
+	scanf("%d",&a);
+
+	int square=4*a;
+	printf("Peramiter square is = %d",square);	
+	return 0;
+}
