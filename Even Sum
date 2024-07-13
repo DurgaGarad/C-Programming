@@ -1,0 +1,19 @@
+Write a C program that calculates and prints the sum of all even numbers from 1 to a given positive integer n. Use a while loop to iterate through the numbers.
+
+Sample 1:
+Input           Output
+6                 12
+
+
+#include <stdio.h>
+int main(void) {
+	int n, sum = 0, i = 2;
+    scanf("%d", &n);
+
+    while (i <= n) {
+        sum += i;
+        i += 2;
+    }
+
+    printf("%d", sum);
+}
