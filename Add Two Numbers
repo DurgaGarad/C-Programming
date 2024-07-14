@@ -1,0 +1,36 @@
+Your task is very simple: given two integers A and B, write a program to add these two numbers and output the sum.
+
+Input Format
+The first line contains an integer T, the total number of test cases.
+Then follow 𝑇 lines, each line contains two integers, A and 𝐵.
+
+Output Format
+For each test case, add A and B and display the sum in a new line.
+
+Sample 1:
+Input                          Output
+1 2                              3
+100 200                         300
+10 40                           50
+
+
+Explanation:
+Testcase 1 : 1 + 2 = 3. Hence the first output is 3.
+Testcase 2 : 100 + 200 = 300.Hence the second output is 300.
+
+Code:-  
+
+#include <stdio.h>
+
+int main() {
+    int t;
+    scanf("%d", &t);
+
+    // Loop for each test case
+    while (t--) {
+        int a, b;
+
+        scanf("%d %d", &a, &b);
+        printf("%d\n",a+b);
+    }
+}
